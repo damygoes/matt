@@ -1,18 +1,14 @@
-// import React from "react";
-// import Hero from "../components/Hero";
-// import OurServices from "../components/OurServices";
-// import CTA from "../components/common/CTA";
-// import OurMisson from "../components/OurMisson";
-// import OurClients from "../components/common/OurClients";
-// import OurContact from "../components/common/OurContact";
+import React from 'react'
+import CTA from '../components/common/CTA'
+import Hero from '../components/Hero'
 
-// const HomePage = () => {
-//   return (
-//     <main className="flex flex-col justify-evenly items-center gap-4">
-//         <Hero/>
-      
-//     </main>
-//   );
-// };
+const HomePage = () => {
+  return (
+    <main>
+        <Hero/>
+        <CTA/>
+    </main>
+  )
+}
 
-// export default HomePage;
+export default HomePage

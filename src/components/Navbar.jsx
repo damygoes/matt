@@ -4,7 +4,8 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 const navLinks = {
   home: "/",
-  about: "/about",
+  "about me": "/about",
+  contact: "/contact"
 };
 
 const Navbar = () => {

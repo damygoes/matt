@@ -1,9 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router";
 import Button from "./common/Button";
 import Layout from "../components/common/Layout";
 import HeaderImage from "../assets/headerIMG.svg";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleNavigation = () => {
+    navigate("/about")
+
+
+  }
+
   return (
     <main className="custom-img-hero">
       <Layout>
@@ -16,7 +25,7 @@ const Hero = () => {
               Connecting developers with mentors worldwide
             </p>
             <div className="w-64 sm:w-96 lg:w-64">
-              <Button text="find a mentor" link="/about" type="primary" />
+              <Button text="schedule a call" type="primary" onClick={handleNavigation} />
             </div>
           </section>
           <section className="flex justify-center items-center flex-1 ">
