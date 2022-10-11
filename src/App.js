@@ -1,11 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./components/common/Footer";
-// import Layout from "./components/common/Layout";
 import About from "./pages/About";
-// import CTA from "./components/common/CTA";
 import Contact from "./pages/Contact";
-// import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 
